@@ -1,3 +1,83 @@
+
 .navbar-nav{
-    margin-left: 55rem;
+    margin-left: 30rem;
+}
+
+.nav-item{
+    margin-right: 5rem;
+    font-size: large;
+}
+
+.nav-link{
+    color: purple !important;
+    
+}
+
+.nav-link:hover{
+    text-decoration: underline;
+    transition: all .5s;
+    transform: scale(1.1);
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+.title1{
+    font-size: 3rem;
+    margin-top: 10rem;
+    color: purple;
+}
+
+.img1{
+    width: 55rem;
+    float: right;
+    margin-top: -18rem;
+    margin-right: -6rem;
+}
+
+.p1{
+    font-size: large;
+}
+
+#btn1{
+    border-color: purple;
+    color: purple;
+}
+
+#btn1:hover{
+    background-color: purple;
+    color: white;
+}
+
+#Home-Section{
+    height: 35rem;
+    padding-top: 1rem;
+}
+
+#info-section{
+    background-color: purple;
+    overflow: hidden;
+    text-align: center;
+    color: white;
+    padding-top: 2rem;
+}
+
+.stps{
+    padding: 5rem;
+   margin-top: -3rem;
+}
+
+.stp1, .stp2, .stp3 {
+    background-color: white;
+    margin-left: 3rem;
+    border-radius: 5px;
+    padding: 1rem;
+    color: black;
+
+}
+
+.stp-img{
+    width: 17rem;
+    height: 12rem;
 }
