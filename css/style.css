@@ -51,7 +51,7 @@ body {
 }
 
 #Home-Section{
-    height: 35rem;
+    height: 41.5rem;
     padding-top: 1rem;
 }
 
@@ -80,4 +80,128 @@ body {
 .stp-img{
     width: 17rem;
     height: 12rem;
+}
+
+#About-section{
+    padding-top: 5rem;
+    text-align: center;
+    overflow: hidden;
+}
+
+.per1, .per2, .per3, .per4{
+    max-width: 18rem !important;
+    margin-left: 3rem;
+    text-align: left;
+}
+
+.per1:hover{
+    background-color: purple;
+    color: white;
+    width: auto;
+    height: auto;
+    transition: all .5s;
+    transform: scale(1.1);
+    border-radius: 10px;
+}
+
+.per2:hover{
+    background-color: purple;
+    color: white;
+    width: auto;
+    height: auto;
+    transition: all .5s;
+    transform: scale(1.1);
+    border-radius: 10px;
+}
+
+.per3:hover{
+    background-color: purple;
+    color: white;
+    width: auto;
+    height: auto;
+    transition: all .5s;
+    transform: scale(1.1);
+    border-radius: 10px;
+}
+
+.per4:hover{
+    background-color: purple;
+    color: white;
+    width: auto;
+    height: auto;
+    transition: all 1s;
+    transform: scale(1.1);
+    border-radius: 10px;
+}
+
+#Contact-Section{
+    background-color: purple;
+    overflow: hidden;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-bottom: 3rem;
+    color: white;
+}
+
+.contect-img{
+    width: 50rem;
+}
+
+.cont-form{
+    padding-top: 5rem;
+    text-align: center;
+}
+
+.formm{
+    padding: 2rem;
+}
+
+#btn2{
+    border-color: white;
+    color: white;
+    margin-top: 1rem;
+}
+
+#btn2:hover{
+    background-color: white;
+    color: purple;
+}
+
+#Footer-Section{
+    background-color: rgb(33, 33, 33);
+    overflow: hidden;
+    color: white;
+    text-align: center;
+    padding-top: 3.5rem;
+    padding-bottom: 1rem !important;
+}
+
+a{
+    text-decoration: none !important;
+    color: white;
+    text-align: left;
+}
+
+.pg{
+    max-width: 150px !important;
+}
+
+.pg:hover{
+    color: purple !important;
+    background-color: white;
+}
+
+ul{
+    margin-left: 12rem;
+}
+
+svg:hover{
+    background-color: white;
+    stroke: purple;
+}
+
+#about-footer{
+    max-width: 30rem;
+    padding-left: 5rem;
+    margin-left: 5rem;
 }
