@@ -1,0 +1,14 @@
+body{
+    background-color: whitesmoke;
+}
+
+.navbar{
+    max-width: 15rem;
+    background-color: purple;
+    margin: -9px;
+    height: 42.6rem;
+    color: white;
+    font-size: larger;
+    padding: 1rem;
+    
+}

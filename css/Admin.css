@@ -1,0 +1,38 @@
+body{
+    background-color: whitesmoke;
+}
+
+.admin-login-section{
+    text-align: center;
+}
+
+.admin-logo{
+    width: 20rem;
+}
+
+.admin-login-form{
+    background-color: white;
+    padding: 2rem;
+    max-width: 25rem;
+    margin-left: 35rem;
+}
+
+h5{
+    margin-bottom: 1.5rem;
+}
+
+#btn1{
+    border-color: purple;
+    color: purple;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  #btn1:hover{
+    background-color: purple;
+    color: white;
+  }
+
+  label:hover{
+    color: purple;
+  }
