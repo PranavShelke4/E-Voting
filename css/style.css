@@ -88,6 +88,12 @@ body {
     overflow: hidden;
 }
 
+.stpss{
+    padding: 5rem;
+    margin-top: -3rem;
+    margin-left: 9rem ;
+}
+
 .per1, .per2, .per3, .per4{
     max-width: 18rem !important;
     margin-left: 3rem;
