@@ -57,6 +57,14 @@ a{
     margin-bottom: 3rem;
 }
 
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: white;
+}
 
 .box{
     border-radius: 9px;
