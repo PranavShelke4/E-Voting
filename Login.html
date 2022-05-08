@@ -39,12 +39,12 @@
               <img class="user-logo" src="./img/logo.png"/><br />
               <h5>User Login</h5>
             </div>
-            <form>
+            <form name="f1" action = "./php/authentication.php" onsubmit="return validation()" method = "POST">
               <div class="mb-3">
                 <input
-                  type="email"
+                  type="text"
                   class="form-control"
-                  id="InputEmail1"
+                  id="user"
                   aria-describedby="emailHelp"
                   placeholder="&#128110; Email Address"
                 />
@@ -53,7 +53,7 @@
                 <input
                   type="password"
                   class="form-control"
-                  id="InputPassword"
+                  id="pass"
                   placeholder="&#128273 Password"
                 />
               </div>
@@ -74,6 +74,29 @@
 
     </section>
 
+
+    <script>  
+      function validation()  
+      {  
+          var id=document.f1.user.value;  
+          var ps=document.f1.pass.value;  
+          if(id.length=="" && ps.length=="") {  
+              alert("User Name and Password fields are empty");  
+              return false;  
+          }  
+          else  
+          {  
+              if(id.length=="") {  
+                  alert("User Name is empty");  
+                  return false;  
+              }   
+              if (ps.length=="") {  
+              alert("Password field is empty");  
+              return false;  
+              }  
+          }                             
+      }  
+  </script>  
     
 
 
