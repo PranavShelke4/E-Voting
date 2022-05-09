@@ -39,12 +39,13 @@
               <img class="user-logo" src="./img/logo.png"/><br />
               <h5>User Login</h5>
             </div>
-            <form name="f1" action = "./php/authentication.php" onsubmit="return validation()" method = "POST">
+            <form name="f1" onsubmit="return validation()" method = "POST">
               <div class="mb-3">
                 <input
                   type="text"
                   class="form-control"
                   id="user"
+                  name="user"
                   aria-describedby="emailHelp"
                   placeholder="&#128110; Email Address"
                 />
@@ -54,11 +55,13 @@
                   type="password"
                   class="form-control"
                   id="pass"
+                  name="pass"
                   placeholder="&#128273 Password"
                 />
               </div>
               <button
                 type="submit"
+                name="submit"
                 class="btn btn-outline-danger"
                 id="btn1"
               >
@@ -69,7 +72,30 @@
           </div>
 
         </div>
-
+        <?php      
+        include('php/connection.php');  
+        
+        if(isset($_POST['submit'])){
+          $user=$_POST['user'];
+          $pass=$_POST['pass'];
+          $sql="SELECT * FROM `voterlogin` WHERE `username`='".$user."' AND `password`='".$pass."'";
+          
+          echo $sql;
+          $result=($sql);
+          $cont=mysql_num_rows($result);
+          if($cmysql_queryont>=1){
+                 echo "<script> alert('Logged in Successfully....'); </script>";
+                 //echo "<script> window.location.href='dashboard.php'; </script>";
+              }
+              else{
+                echo "<script> alert('Plese check password and username....'); </script>";
+                //echo "<script> window.location.href='../login.html'; </script>";
+              }
+          }
+                // Set session variables
+            $_SESSION["user"] = "$user";
+            //echo "Session variables are set.";
+      ?>
       </div>
 
     </section>
