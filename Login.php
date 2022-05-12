@@ -79,11 +79,9 @@
           $user=$_POST['user'];
           $pass=$_POST['pass'];
           $sql="SELECT * FROM `voterlogin` WHERE `username`='".$user."' AND `password`='".$pass."'";
-          
-          echo $sql;
-          $result=($sql);
+          $result=mysql_query($sql);
           $cont=mysql_num_rows($result);
-          if($cmysql_queryont>=1){
+          if($cont>=1){
                  echo "<script> alert('Logged in Successfully....'); </script>";
                  //echo "<script> window.location.href='dashboard.php'; </script>";
               }
