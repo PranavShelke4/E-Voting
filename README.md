@@ -29,4 +29,5 @@
     ![image](https://user-images.githubusercontent.com/88943865/169753882-b264df5f-e3d5-495e-8bf5-a39335c93358.png)</br>
 
 5. Now open https://localhost/E-Voting/ and click on login and enter <br/>Usesername: admin </br> Password: admin123
-6. Enjoy !
+ 
+7. Enjoy !
