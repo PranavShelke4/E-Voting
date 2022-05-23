@@ -78,67 +78,54 @@ body {
 }
 
 .stp-img{
-    width: 17rem;
-    height: 12rem;
+    width: 10rem;
+    height: 8rem;
 }
 
 #About-section{
-    padding-top: 5rem;
+    padding-top: 3rem;
     text-align: center;
     overflow: hidden;
 }
 
 .stpss{
-    padding: 5rem;
-    margin-top: -3rem;
-    margin-left: 9rem ;
+    padding: 1rem;
+    margin-top: 1rem;
+    padding-left: 13rem ;
+    text-align: center;
 }
 
-.per1, .per2, .per3, .per4{
-    max-width: 18rem !important;
-    margin-left: 3rem;
-    text-align: left;
+.about-img{
+    width: 15rem;
+    height: 13rem;
 }
 
-.per1:hover{
+/* .per{
+    border-radius: 10px;
+} */
+
+
+.per{
     background-color: purple;
     color: white;
-    width: auto;
-    height: auto;
-    transition: all .5s;
-    transform: scale(1.1);
+    width: 20rem;
+    height: 100%;
     border-radius: 10px;
+    padding: 1rem;
+    margin-left: 13rem;
 }
+.per2{
 
-.per2:hover{
     background-color: purple;
     color: white;
-    width: auto;
-    height: auto;
-    transition: all .5s;
-    transform: scale(1.1);
+    width: 20rem;
+    height: 100%;
     border-radius: 10px;
+    margin-left: 1rem;
+    padding: 1rem;
+
 }
 
-.per3:hover{
-    background-color: purple;
-    color: white;
-    width: auto;
-    height: auto;
-    transition: all .5s;
-    transform: scale(1.1);
-    border-radius: 10px;
-}
-
-.per4:hover{
-    background-color: purple;
-    color: white;
-    width: auto;
-    height: auto;
-    transition: all 1s;
-    transform: scale(1.1);
-    border-radius: 10px;
-}
 
 #Contact-Section{
     background-color: purple;
