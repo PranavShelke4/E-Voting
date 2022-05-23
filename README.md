@@ -3,9 +3,10 @@
 # Step To Run Project: 
 
 1. First Download Or Clone Project.
-2. Now start your xampp Apache & MySQL Server</br> ![image](https://user-images.githubusercontent.com/88943865/169752623-b982a4b3-f813-41b5-a99a-d9d0ae3e2aa6.png)
-3. Then open php my admin (https://localhost/phpmyadmin/)
-4. Create voting_db Name Database </br>
+2. Then Past Project File into xampp htdocs
+3. Now start your xampp Apache & MySQL Server</br> ![image](https://user-images.githubusercontent.com/88943865/169752623-b982a4b3-f813-41b5-a99a-d9d0ae3e2aa6.png)
+4. Then open php my admin (https://localhost/phpmyadmin/)
+5. Create voting_db Name Database </br>
  ![image](https://user-images.githubusercontent.com/88943865/169751794-685450aa-f153-4d99-ba1f-0ab3fe78723a.png)</br>
 4. In database make 6 Table name like follwolling & Column name given following images :- </br>
 
@@ -27,4 +28,5 @@
     f. voting_opt</br>
     ![image](https://user-images.githubusercontent.com/88943865/169753882-b264df5f-e3d5-495e-8bf5-a39335c93358.png)</br>
 
-
+5. Now open https://localhost/E-Voting/ and click on login and enter <br/>Usesername: admin </br> Password: admin123
+6. Enjoy !
